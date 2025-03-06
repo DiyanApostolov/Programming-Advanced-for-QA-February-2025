@@ -7,7 +7,7 @@ string input = Console.ReadLine();
 
 Regex regex = new Regex(pattern);
 
-// .IsMatch втъща стойност true, ако има съвпадения в текста (Matches)
+// .IsMatch връща стойност true, ако има съвпадения в текста (Matches)
 if (regex.IsMatch(input))
 {
     MatchCollection dates = Regex.Matches(input, pattern);
