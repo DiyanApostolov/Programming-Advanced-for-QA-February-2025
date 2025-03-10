@@ -10,7 +10,7 @@ for (int i = 0; i < words.Count; i++)
 {
     string key = words[i];
 
-    if (numbersAndCount.ContainsKey(key)) // ако съдуржа този ключ, увеличи value с 1
+    if (numbersAndCount.ContainsKey(key)) // ако съдържа този ключ, увеличи value с 1
     {
         numbersAndCount[key]++;
     }
